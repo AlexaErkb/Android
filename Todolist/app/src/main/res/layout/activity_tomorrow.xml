@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Today">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Список дел на завтра"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/todo"
+        android:textColor="#4974ad"/>
+    <RelativeLayout
+        android:id="@+id/add_layout"
+        android:layout_below="@id/todo"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/to_add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_toRightOf="@id/to_add"
+            android:id="@+id/add"
+            android:text="Добавить дело"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/listtodo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/add_layout"/>
+
+</RelativeLayout>
