@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#AAE8DD"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/magnolia"
+            android:text="Результаты теста"
+            android:textColor="#344C6C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Не забывайте о регулярном профессиональном медицинском осмотре!"
+            android:id="@+id/important"
+            android:layout_below="@id/result"
+            android:textColor="#486D9E"
+            android:layout_marginLeft="10dp"
+            android:textSize="19sp"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="40dp"
+            android:layout_height="400dp"
+            android:layout_below="@id/important"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar_vertical" />
+        <TextView
+            android:id="@+id/result_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/important"
+            android:layout_toRightOf="@id/progress_bar"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#486D9E"/>
+        <ImageView
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/result_info"
+            android:layout_toRightOf="@id/progress_bar"/>
+    </RelativeLayout>
+
+</ScrollView>
