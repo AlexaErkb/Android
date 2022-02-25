@@ -28,7 +28,7 @@ public class MyService extends Service {
     public void onCreate() {
         super.onCreate();
         Log.d(LOG_TAG, "onCreate");
-        notifManger = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        nf = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         Notification notification = createForegroundNotification();
         startForeground(NOTIFICATION_ID, notification);
     }
@@ -50,7 +50,7 @@ public class MyService extends Service {
         return super.onUnbind(intent);
     }
     private Notification createForegroundNotification() {
-        createNotificationChannel(notifManger);
+        createNotificationChannel(nf);
         Intent resultIntent2 = new Intent(this, MainActivity2.class);
         PendingIntent intent2 = PendingIntent.getActivity(this, 0, resultIntent2, 0);
 
