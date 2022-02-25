@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat;
 
 public class MyService extends Service {
     final String LOG_TAG = "Log";
-    NotificationManager notifManger;
+    NotificationManager nf;
     private static final int NOTIFICATION_ID=1;
     private static final String CHANNEL_ID = "100";
     @Override
