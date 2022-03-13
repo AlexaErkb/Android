@@ -7,6 +7,7 @@
 Загрузить созданную программу на GitHub в репозиторий Student, используя формат в названии Фамилия (латинскими буквами)_4.  
 ## Контрольные вопросы
 Как установить зависимости для управляемого проекта Expo?
+Нужно ввести: expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
 ## Дополнительные задания
 Добавьте Navigation Drawer.  
 ## Приложение
