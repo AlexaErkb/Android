@@ -5,4 +5,4 @@
 Создайте анимацию для слайдера с различными картиками, добавьте другие компоненты на экран, используя созданные велкомскрины.   
 Создайте анимированный лаучскрин.  
 ## Приложение
-![alt](./video.mp4)
+https://vk.com/doc214589561_636727072?hash=cyoxujIZjzZrNFK9zFUta1282LhgJQd1nYTtDvcXulw&dl=CHzuNyVgE3D3nxGXbk5aFJ7eOPlniWkNiF8ITMUKro4
