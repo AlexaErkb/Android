@@ -1,0 +1,1 @@
+# Анимация в React Native
