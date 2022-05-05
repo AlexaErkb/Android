@@ -13,3 +13,4 @@
 Какие основные свойства для выравнивания объектов на экране существуют?  
 alignSelf, alignContent, alignText, margin, padding
 ## Приложение
+![1A3F3EF6-7DE3-4795-9AAE-E641CE38597A](https://user-images.githubusercontent.com/70998859/166849836-396d03ce-0fb5-4b84-820f-ab9b86e9da80.gif)
