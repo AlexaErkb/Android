@@ -11,16 +11,7 @@ export default function Register() {
         <Image source={require('../images/catlogo.jpg')} style={{width: 100, height: 100, alignSelf: 'center', marginBottom: '5%'}}/>
         <Text style={styles.title}>Регистрация</Text>
         <Text style={styles.info}>Введите, пожалуйста, свои персональные данные для дальнейшей персонализации. Это необходимо только один раз.</Text>
-        <View style={{
-          flexDirection: 'row',
-            alignItems: 'center',
-            borderWidth: 1.5,
-            marginHorizontal: '15%',
-            marginBottom: 10,
-            paddingHorizontal: '3%',
-            borderColor: 'black',
-            borderRadius: '30px',
-        }}>
+        <View style={styles.field}>
         <Feather name="mail" size={24} color="black"/>
         <TextInput
           style={styles.input}
@@ -28,16 +19,7 @@ export default function Register() {
           returnKeyType="done"
         />
         </View>
-        <View style={{
-          flexDirection: 'row',
-            alignItems: 'center',
-            borderWidth: 1.5,
-            marginHorizontal: '15%',
-            marginBottom: 10,
-            paddingHorizontal: '3%',
-            borderColor: 'black',
-            borderRadius: '30px',
-        }}>
+        <View style={styles.field}>
         <Feather name="lock" size={24} color="black"/>
         <TextInput
           secureTextEntry={true}
@@ -46,16 +28,7 @@ export default function Register() {
           returnKeyType="done"
         />
         </View>
-        <View style={{
-          flexDirection: 'row',
-            alignItems: 'center',
-            borderWidth: 1.5,
-            marginHorizontal: '15%',
-            marginBottom: 10,
-            paddingHorizontal: '3%',
-            borderColor: 'black',
-            borderRadius: '30px',
-        }}>
+        <View style={styles.field}>
         <Feather name="lock" size={24} color="black"/>
         <TextInput
           secureTextEntry={true}
@@ -132,5 +105,15 @@ const styles = StyleSheet.create({
     alignItems: 'center', 
     justifyContent: 'center',
     borderRadius: 30
+  },
+  field: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1.5,
+    marginHorizontal: '15%',
+    marginBottom: 10,
+    paddingHorizontal: '3%',
+    borderColor: 'black',
+    borderRadius: '30px',
   },
 });
