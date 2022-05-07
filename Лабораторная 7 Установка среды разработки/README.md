@@ -5,3 +5,6 @@
 1. Следуя руководству https://www.reactnative.express/environment/quick_start установите среду разработки React Native.  
 2. Добавьте функциональные элементы на экран, обновите приложение.  
 3. Поделитесь ссылкой на проект в Expo. Загрузить созданное приложение на на GitHub в репозиторий Student, используя формат в названии Фамилия (латинскими буквами)_6.  
+![image](https://user-images.githubusercontent.com/70998859/167258420-873e105e-afe7-4c54-be0e-668e64c9fe53.png)  
+## Приложение
+![image](https://user-images.githubusercontent.com/70998859/167258457-9f8c5c6e-5743-45c3-aecf-38faaa8db330.png)
